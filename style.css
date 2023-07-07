@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Office:wght@600&display=swap');
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Ysabeau Office', sans-serif;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background: white;
+  height: 140px;
+  box-shadow: rgba(0, 0, 0, 0.3) 3px 3px 3px;
+}
+
+.left img {
+  width: 240px;
+  height: 140px;
+}
+
+.container {
+  /* margin: 4px 0px; */
+  padding: 0 10vw;
+}
+
+nav {
+  padding-top: 14px;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 0 12px;
+  font-size: 1rem;
+}
+
+.section1 {
+  background: #fafafa;
+  height: auto;
+
+}
+
+.search {
+  width: 200px;
+  height: 30px;
+  padding: 7px 17px;
+  border: 0.5px solid #c3d7fe;
+  background: #fafafa;
+  border-radius: 5px;
+}
+
+.homeImg {
+  width: 80vw;
+  margin: 12px 0;
+
+}
+
+.band {
+  list-style: none;
+  padding: 0 12px;
+  font-size: 1.8rem;
+  color: #3e4152;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: #131111;
+}
+
+.navImg {
+  width: 50px;
+}
+
+.bagImg {
+  width: 38px;
+}
+
+.center {
+  padding-top: 12px;
+}
